@@ -1,0 +1,65 @@
+{
+  "id": "1912396",
+  "name": "二阶段项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1244193",
+      "name": "人人",
+      "font_class": "renren",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "13281423",
+      "name": "公网",
+      "font_class": "gongwang",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "14970105",
+      "name": "POI-_公安-36",
+      "font_class": "POI-_gongan-36",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "308752",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "496706",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "1762006",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4600648",
+      "name": "小程序",
+      "font_class": "xiaochengxu",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "5834316",
+      "name": "会话",
+      "font_class": "huihua",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1702060",
+  "name": "作业1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "49851",
+      "name": "放大镜",
+      "font_class": "41",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "2121746",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "551615",
+      "name": "五角星",
+      "font_class": "star_full",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "9557796",
+      "name": "搜索框",
+      "font_class": "sousuokuang",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "6270",
+      "name": "男装",
+      "font_class": "nanzhuang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "25134",
+      "name": "女鞋",
+      "font_class": "nvxie",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "259480",
+      "name": "女装",
+      "font_class": "nvzhuang",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "3240132",
+      "name": "商品分类",
+      "font_class": "shangpinfenlei",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}

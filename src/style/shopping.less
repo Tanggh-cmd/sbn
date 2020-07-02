@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    min-width: 1200px;
+    min-height: 100vh;
+
+    .cont {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+ 
+        .cart-title {
+            position: relative;
+            height: 66px;
+            margin-bottom: 19px;
+            line-height: 66px;
+            color: #333;
+            font-size: 20px;
+            font-weight: 400;
+            background-color: #fff;
+            text-align: center;
+
+            span {
+                display: inline-block;
+                position: absolute;
+                left: 500px;
+                color: #333;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+
+            a {
+                text-decoration: none;
+                position: absolute;
+                right: 35px;
+                color: #333;
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+
+        .cart-head {
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+
+            .order-table {
+                width: 100%;
+                table-layout: fixed;
+                text-align: center;
+                vertical-align: middle;
+                word-wrap: break-word;
+                color: #686868;
+
+                tbody {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline;
+                    color: #686868;
+                    text-align: center;
+
+                    tr {
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        font-size: 100%;
+                        font: inherit;
+                        vertical-align: baseline;
+                        display: table-row;
+                        text-align: center;
+                        color: #686868;
+
+                        .check-col {
+                            width: 175px;
+                            text-align: left;
+                            height: 64px;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #333;
+                            vertical-align: middle;
+
+                            label {
+                                text-align: left;
+                                color: #333;
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                font-size: 100%;
+                                font: inherit;
+                                vertical-align: baseline;
+
+                                i {
+                                    position: relative;
+                                    z-index: 3;
+                                    display: inline-block;
+                                    width: 20px;
+                                    height: 20px;
+                                    cursor: pointer;
+                                    vertical-align: middle;
+                                    background: #fff url(../img/XZ.png) no-repeat 0 0;
+                                    background-size: cover;
+                                    margin: 0 10px 2px 0;
+                                    background-position: 0 -28px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                }
+
+                                a {
+
+                                    cursor: pointer;
+                                    color: #333;
+                                    text-decoration: none;
+                                    background-color: transparent;
+                                    outline: 0;
+                                    -webkit-tap-highlight-color: transparent;
+                                    outline: 0;
+                                    margin: 0;
+                                    padding: 0;
+                                    border: 0;
+                                    font-size: 100%;
+                                    font: inherit;
+                                    vertical-align: baseline;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .shop{
+            .list{
+                list-style: none;
+                overflow: hidden;
+                // margin: 50px;
+                width: 100%;
+               
+                .item{
+
+                    .inline_{
+                        display: inline-block;
+                    }
+                    padding-left:180px ;
+                    width: 100%;
+                    height: 100%;
+                    background-color: pink;
+                    margin: 20px;
+                    .p-title{
+                        width: 200px;
+                        height: 100%;
+                        text-align: center;
+                    }
+                    .p-price{
+                        color: red ;
+                        .yuan{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    display: block;
+                }
+            }
+
+        }
+    }
+}

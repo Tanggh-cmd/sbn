@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../项目图标/download/iconfont.css">
+    <script src="../js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-big">
+            <div class="login-big-center">
+                <img src="../img/signpic.jpg" alt="">
+                <div class="logo">
+                    <a href="https://www.vivo.com.cn" target="_blank" class="aaa"></a>
+                </div>
+                <div class="input">
+                    <div class="inner-box">
+                        <a href="../html/index.html">
+                            <div data-v-70b319df="" class="logo-area"><img data-v-70b319df="" src="https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/logo.1f42884.png.webp"></a>
+                        </div>
+                        <div data-v-70b319df="" class="title1">账号登陆</div>
+                        <div data-v-70b319df="" class="toggle-module"><span data-v-70b319df="">短信验证码登录</span></div>
+                        <div class="phone">
+
+                            <div class="tle-phone phone1">
+                                <!-- <div class="are-code">
+                                    <span class="spa">+86</span>
+                                    <i class="iii"></i>
+                                </div> -->
+                                <label for="">    <input id="username" name="username" data-v-70b319df="" type="text" placeholder="请输入帐号" class="input1"></label>
+                            </div>
+                            <div class="tle-phone phone2">
+                                <label for=""> <input id="pwd" name="pwd" data-v-70b319df="" type="text" password="false" placeholder="请输入密码" class="input2"></label>
+                                <div data-v-70b319df="" class="eye-box"><img data-v-70b319df="" src="https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/eyes-off.7c50935.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div data-v-70b319df="" class="check-box clearfix">
+                            <div data-v-70b319df="">
+                                <div data-v-70b319df="" class="toggle">邮箱/用户名登录</div>
+                                <div data-v-70b319df="" class="toggle" style="display: none;">手机号登录</div>
+                            </div>
+                            <!---->
+                            <div data-v-70b319df="" class="auto-login">
+                                <div data-v-70b319df="" class="check"><img data-v-70b319df="" src="https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/selected-icon.a90d513.png" style="display: none;"></div> <span data-v-70b319df="">两周内自动登录</span>
+                            </div>
+                        </div>
+                        <label for=""> <input id="btn" name="btn" value="登录" type="" data-v-a1ce28c8="" class="os-pc-btn" style=" display: block;
+                        width: 360px;
+                        height: 48px;
+                        line-height: 48px;
+                        font-size: 17px;
+                        color: #fff;
+                        text-align: center;
+                        margin: 0 auto;
+                        margin-top: 20px;
+                        cursor: pointer;
+                        background-color: #456fff;
+                        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#418eff, endColorstr=#4566ff);
+                        background-image: linear-gradient(90deg, #418eff, #4566ff);"></label>
+
+                        <div data-v-70b319df="" class="register-button">注册vivo帐号</div>
+                        <div data-v-70b319df="" class="forget-pwd">忘记密码</div>
+                        <div data-v-70b319df="" class="other-way-login">
+                            <div data-v-70b319df="" class="o-title ">其它方式登录</div>
+                            <div class="other">
+                                <ul>
+                                    <li class="iconfont icon-weixin"></li>
+                                    <li class="iconfont icon-zhifubao"></li>
+                                    <li class="iconfont icon-weibo"></li>
+                                    <li class="iconfont icon-renren"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="login-footer">
+            <div data-v-8e8a354a="" data-v-70b319df="" class="foot">
+                <div data-v-8e8a354a="" class="service">
+                    <a data-v-8e8a354a="" href="https://kefu.vivo.com.cn/robot-vivo/pcChat.html" target="_blank" class="to-service"><img data-v-8e8a354a="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAYAAAGega+EAAABYWlDQ1BrQ0dDb2xvclNwYWNlRGlzcGxheVAzAAAokWNgYFJJLCjIYWFgYMjNKykKcndSiIiMUmB/yMAOhLwMYgwKicnFBY4BAT5AJQwwGhV8u8bACKIv64LMOiU1tUm1XsDXYqbw1YuvRJsw1aMArpTU4mQg/QeIU5MLikoYGBhTgGzl8pICELsDyBYpAjoKyJ4DYqdD2BtA7CQI+whYTUiQM5B9A8hWSM5IBJrB+API1klCEk9HYkPtBQFul8zigpzESoUAYwKuJQOUpFaUgGjn/ILKosz0jBIFR2AopSp45iXr6SgYGRiaMzCAwhyi+nMgOCwZxc4gxJrvMzDY7v////9uhJjXfgaGjUCdXDsRYhoWDAyC3AwMJ3YWJBYlgoWYgZgpLY2B4dNyBgbeSAYG4QtAPdHFacZGYHlGHicGBtZ7//9/VmNgYJ/MwPB3wv//vxf9//93MVDzHQaGA3kAFSFl7jXH0fsAAAHJSURBVDgRnZO9S8NQFMWTNB3sIoggdnFQcXISxEEnxT+gg4OIUIS2CUjp4McgmMGtQwfpJ7iJooPoUPwDxEWooK4uLhkFl4BoG3/30WjU+vmgPe/dc+55994kmsZKpVK+oJZOp+ttTOpEr3RdH1aM+iNy/XbSNMuyZnQJQFhIJ3zfn6jVaiO64zim67pPQhqGsSb4/VI+3F9GdoLPlZhGCSx/lQd3+Vo64kcRfkSclLMQ552ciA/ilO/Eadlstg/yOCCVVSaTWcXW4dcVEOB1PB4fo+9nmeJliHi3hVvmyihDMVbfMaFDtVrd5tjQguo/dhU6+3JdMpT8aQtfF1FeWv3EEiCuRqO649BPbIXHKd0lqEVGsAFudUpWMQQHtG4EAuVk2/ZQs9k8pIk73EqxWKxRKBTuA1EYc7lcj+d5Y2httAORSGSuVCrdyku4TmCc6xPhhN/uqewI0wuThE1mHg8SIRZkj/Gu4E9ncpfoxpUevVar1StJ/1ntXE9am6S1Pcob5aN5+IsZud3k3pA7r4bNRufFtEAH4gxsgK/DNk3ztFgs3skltGoD02im0DiVSqUMtj+UH8qQqpHsM48dWlnEeFaeVDjtBaRT1nHakjV9AAAAAElFTkSuQmCC"
+                            alt="">
+                        <!----><span data-v-8e8a354a="" class="online-person"> 在线客服</span></a>
+                    <a data-v-8e8a354a="" class="to-service"><img data-v-8e8a354a="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAFVZq6RAAABYWlDQ1BrQ0dDb2xvclNwYWNlRGlzcGxheVAzAAAokWNgYFJJLCjIYWFgYMjNKykKcndSiIiMUmB/yMAOhLwMYgwKicnFBY4BAT5AJQwwGhV8u8bACKIv64LMOiU1tUm1XsDXYqbw1YuvRJsw1aMArpTU4mQg/QeIU5MLikoYGBhTgGzl8pICELsDyBYpAjoKyJ4DYqdD2BtA7CQI+whYTUiQM5B9A8hWSM5IBJrB+API1klCEk9HYkPtBQFul8zigpzESoUAYwKuJQOUpFaUgGjn/ILKosz0jBIFR2AopSp45iXr6SgYGRiaMzCAwhyi+nMgOCwZxc4gxJrvMzDY7v////9uhJjXfgaGjUCdXDsRYhoWDAyC3AwMJ3YWJBYlgoWYgZgpLY2B4dNyBgbeSAYG4QtAPdHFacZGYHlGHicGBtZ7//9/VmNgYJ/MwPB3wv//vxf9//93MVDzHQaGA3kAFSFl7jXH0fsAAAGwSURBVCgVdZI/SEJRFMZ97/mHHgQ2RCEFDgVBDRFCDQ1RS0vQ0NjQpGJJblEEORZBCo9KRZBwCF2aWiNwDKOtMZDwDTaIgYb4p999cEXJLtz3nXu+7zvn3Me12YavQCBwqvE59vl8s8Vi8c2S+f3+ihXAhAaMMLpkdiSjiADGoSjKhy0UCi3m83mNRFcqBNpbrZa3UCh8ORwObz8h7U+qql5R4rvdbj97PB7NIqSSUR6J291ud8vKkTiUpESVZMnpdGZoviyTAlXqZg3DqIHJfsJOvXkxajKZHOinohplZ/vVIlZwKMFg0AD3Od+x51Kp1IroIW58o2maj8Qed1hDuNCry8GL6xVRBnHOIhg5TWIVYgLEmDoChy5xv10YF9OKnmP8sgbTG0PVJO20cVO5JgS0j3Y6nTNMS/8ZlEgk4q7X6yUE0+wqlxiJRqM//xnUeDxepeI2nV4QzZTL5RJjbkhDOBwel7HA3t/goUzyJkzMm4wofvYJ+EDHC9M03zmnE4nEec8g3GJxj3WE94SXuq5fx2KxhsjT9RYw/xgEKRfjTDWbzQMKVFwuV45H8fkLmKerdC5pa5YAAAAASUVORK5CYII="
+                            alt="" class="phone"> <span data-v-8e8a354a="" class="hot-line"> 400-678-9688(24小时全国服务热线)</span></a>
+                </div>
+                <div data-v-8e8a354a="" class="copyright">
+                    COPYRIGHT ©2020 广东步步高电子工业有限公司 版权所有 保留一切权利 | 隐私政策 | 法律声明 | 粤B2-20080267 | 粤ICP备05100288号
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/lib/login.js"></script>
+
+</body>
+
+</html>
