@@ -32,4 +32,34 @@ loginTC.onclick = function() {
         loginTC.classList.add('nologin')
     }
     fn()
-}
+};
+
+let baseUrl = "http://localhost/wampROOM1/twoproject/project/";
+$.ajax({
+    type: "get",
+    url: `http://localhost/wampROOM1/twoproject/project/interface/getall.php`,
+    dataType: "json",
+    success: function(res) {
+        // console.log(res)
+        let temp = "";
+        res.forEach(elm => {
+            console.log(elm)
+            let pic = JSON.parse(elm.pic商品图片)
+            console.log(pic)
+            temp += `<a href="${baseUrl}src/html/detail.html?id=${elm.Id}";>
+                             <li class="SY">
+                             <div>
+                                <img src="${baseUrl}src/${pic[4].src}">
+                             </div>
+                                <div class="p4">
+                                
+                                    <h2 class="banner-small-title">${elm.title商品标题}</h2>
+                                    <p class="banner-small-subtitle">新品首发</p>
+                                </div>
+                            </li>
+                    </a>`;
+        });
+        $('.XR').html(temp);
+
+    }
+});

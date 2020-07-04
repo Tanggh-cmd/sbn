@@ -98,7 +98,7 @@
   font: inherit;
   vertical-align: baseline;
 }
-#content .cont .cart-head .order-table tbody tr .check-col label i {
+#content .cont .cart-head .order-table tbody tr .check-col label .checkbox {
   position: relative;
   z-index: 3;
   display: inline-block;
@@ -109,9 +109,22 @@
   background: #fff url(../img/XZ.png) no-repeat 0 0;
   background-size: cover;
   margin: 0 10px 2px 0;
-  background-position: 0 -28px;
+  background-position: 0 0px;
   font-style: normal;
   font-weight: 400;
+}
+#content .cont .cart-head .order-table tbody tr .check-col label .checked {
+  background-position: 0 -28px;
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: #fff url(../img/XZ.png) no-repeat 0 0;
+  background-size: cover;
+  margin: 0 10px 2px 0;
 }
 #content .cont .cart-head .order-table tbody tr .check-col label a {
   cursor: pointer;
@@ -130,31 +143,75 @@
 }
 #content .cont .shop .list {
   list-style: none;
-  overflow: hidden;
   width: 100%;
+  overflow: hidden;
 }
 #content .cont .shop .list .item {
-  padding-left: 180px ;
-  width: 100%;
-  height: 100%;
-  background-color: pink;
+  border: 1px solid black;
+  overflow: hidden;
   margin: 20px;
+  height: 202px;
 }
-#content .cont .shop .list .item .inline_ {
+#content .cont .shop .list div {
+  float: left;
+}
+#content .cont .shop .list .c-box {
+  line-height: 202px;
+}
+#content .cont .shop .list .c-box .check {
+  position: relative;
+  z-index: 3;
   display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: #fff url(../img/XZ.png) no-repeat 0 0;
+  background-size: cover;
+  margin: 0 10px 2px 0;
+  background-position: 0 0px;
+  font-style: normal;
+  font-weight: 400;
 }
-#content .cont .shop .list .item .p-title {
-  width: 200px;
-  height: 100%;
+#content .cont .shop .list .p-pri {
+  width: 100px;
+  line-height: 202px;
+}
+#content .cont .shop .list .p-pri img {
+  width: 100px;
+}
+#content .cont .shop .list .p-title {
   text-align: center;
+  line-height: 202px;
+  width: 210px;
 }
-#content .cont .shop .list .item .p-price {
-  color: red ;
+#content .cont .shop .list .p-title a {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+  white-space: nowrap;
+  word-wrap: normal\9;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-#content .cont .shop .list .item .p-price .yuan {
-  font-size: 12px;
+#content .cont .shop .list .p-price {
+  line-height: 202px;
+  width: 150px;
+  text-align: center;
+  height: 100%;
 }
-#content .cont .shop .list a {
-  text-decoration: none;
-  display: block;
+#content .cont .shop .list .p-num {
+  line-height: 202px;
+  width: 200px;
+  text-align: center;
+  margin-right: 250px;
+  height: 100%;
+}
+#content .cont .shop .list .p-price-sum {
+  line-height: 202px;
+  margin-right: 110px;
+  height: 100%;
+}
+#content .cont .shop .list .p-del {
+  line-height: 202px;
 }

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cont {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 100%;
+}
+.cont .add-success {
+  width: 1200px;
+  height: 294px;
+  background-color: rgba(122, 255, 122, 0.1);
+}
+.cont .add-success .add-success-title {
+  padding: 45px 0 0 370px;
+  font-size: 21px;
+  color: #000;
+}
+.cont .add-success .add-success-title img {
+  width: 23px;
+  height: 17px;
+}
+.cont .add-success .add-success-title span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #000;
+}
+.cont .add-success .add-success-content .product-info {
+  float: left;
+  height: 150px;
+  margin: 28px 0 0 130px;
+}
+.cont .add-success .add-success-content .product-info .product-img {
+  border: 1px solid #ececec;
+  float: left;
+  width: 152px;
+  height: 153.6px;
+}
+.cont .add-success .add-success-content .product-info .product-img img {
+  width: 152px;
+  height: 153.6px;
+}
+.cont .add-success .add-success-content .product-info .product-des {
+  float: left;
+  margin: 20px 0 0 36px;
+  font-size: 18px;
+}
+.cont .add-success .add-success-content .product-action {
+  margin: 80px 120px 0 0;
+  float: right;
+  font-size: 19px;
+  color: #fff;
+  line-height: 48px;
+  text-align: center;
+}

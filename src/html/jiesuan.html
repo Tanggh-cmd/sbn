@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="../style/detcontent.css" />
     <link rel="stylesheet" href="../style/footer_top.css">
     <link rel="stylesheet" href="../style/footer_bottom.css">
-    <link rel="stylesheet" href="../style/shopping.css">
+    <link rel="stylesheet" href="../style/jiesuan.css">
+    <script src="../js/require.js" data-main="../js/main.jiesuan.js"></script>
 </head>
-<script src="../js/require.js" data-main="../js/main.shopping"></script>
 
 <body>
     <div class="topbar">
@@ -65,62 +65,29 @@
         </div>
     </div>
 
-    <div id="content">
-        <div class="cont">
-            <div class="cart-title">
-                <span data-v-689c4d1b="">我的购物车</span>
-                <a data-v-689c4d1b="" href="/index.html" class="continue-shopping">继续购物
-                    <b data-v-689c4d1b="">&gt; </b>
-                </a>
+    <div class="cont">
+        <div class="add-success">
+            <div data-v-f1d7879a="" class="add-success-title"><img data-v-f1d7879a="" src="data:image/png;base64,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"
+                    alt=""><span data-v-f1d7879a="">&nbsp;商品已经成功添加到购物车！</span>
             </div>
-            <div data-v-c30dcdd8="" data-v-689c4d1b="" class="cart-head">
-                <table data-v-c30dcdd8="" class="order-table">
-                    <tbody data-v-c30dcdd8="">
-                        <tr data-v-c30dcdd8="">
-                            <th data-v-c30dcdd8="" class="check-col">
-                                <label data-v-sc30dcdd8="">
-                                   <input type="checkbox"  class="checkbox"> 
-                                    <a data-v-c30dcdd8=""href="javascript:void(0);">全选</a>
-                                </label>
-                            </th>
-                            <th data-v-c30dcdd8="" class="goods-col">商品名称</th>
-                            <th data-v-c30dcdd8="" class="price-col">价格（元）</th>
-                            <th data-v-c30dcdd8="">数量</th>
-                            <th data-v-c30dcdd8="">优惠</th>
-                            <th data-v-c30dcdd8="">赠送积分</th>
-                            <th data-v-c30dcdd8="">小计（元）</th>
-                            <th data-v-c30dcdd8="">操作</th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="shop">
-                <ul class="list">
-                    <!-- <li class="item">
-                        <div class="c-box">
-                            <input type="checkbox" id="p1">
+            <div class="add-success-content">
+                <div class="product-info">
+                    <div data-v-f1d7879a="" class="product-img">
+                        <!-- <img data-v-f1d7879a="" src="https://shopstatic.vivo.com.cn/vivoshop/commodity/44/10002544_1590047421491_250x250.png"> -->
+                    </div>
+                    <div data-v-f1d7879a="" class="product-des">
+                        <div data-v-f1d7879a="" class="product-name"></div>
+                        <!-- <div data-v-f1d7879a="" class="product-tag">
                         </div>
-                        <div class="p-pri">
-                            <img src="../img/pic1-s.png" alt="">
-                        </div>
-                        <div class="p-title">
-                            <a href=""> vivo TWS Earphone 真无线蓝牙耳机 星际蓝</a>
-                        </div>
-                        <div class="p-price">
-                            单价:123456
-                        </div>
-                        <div class="p-num">
-                            数量:<input type="number" value="2" min="1" max="20">
-                        </div>999
-
-                        <div class="p-price-sum">
-                            总价:24936
-                        </div>
-                        <div class="p-del">
-                            <a href="javasript:;">删除</a>
-                        </div>
-                    </li> -->
-                </ul>
+                        <div data-v-f1d7879a="" class="product-tag">
+                        </div> -->
+                        <div data-v-f1d7879a="" class="product-tag"></div>
+                    </div>
+                </div>
+                <div class="product-action">
+                    <a data-v-f1d7879a="" target="_blank" href="/product/10002544?colorSkuid=104410"><button data-v-f1d7879a="" class="v-btn v-btn--dark" data-clickparams="{&quot;cfrom&quot;:5932,&quot;pageview&quot;:&quot;购物车页&quot;}">查看商品详情</button></a>
+                    <a data-v-f1d7879a="" target="_blank" href="/shoppingcart"><button id="GWC" data-v-f1d7879a="" class="v-btn v-btn--brand" data-clickparams="{&quot;cfrom&quot;:5933,&quot;pageview&quot;:&quot;购物车页&quot;}">去购物车结算</button></a>
+                </div>
             </div>
         </div>
     </div>

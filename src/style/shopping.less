@@ -12,7 +12,7 @@
         position: relative;
         width: 1200px;
         margin: 0 auto;
- 
+
         .cart-title {
             position: relative;
             height: 66px;
@@ -102,7 +102,7 @@
                                 font: inherit;
                                 vertical-align: baseline;
 
-                                i {
+                                .checkbox {
                                     position: relative;
                                     z-index: 3;
                                     display: inline-block;
@@ -113,9 +113,23 @@
                                     background: #fff url(../img/XZ.png) no-repeat 0 0;
                                     background-size: cover;
                                     margin: 0 10px 2px 0;
-                                    background-position: 0 -28px;
+                                    background-position: 0 0px;
                                     font-style: normal;
                                     font-weight: 400;
+                                }
+
+                                .checked {
+                                    background-position: 0 -28px;
+                                    position: relative;
+                                    z-index: 3;
+                                    display: inline-block;
+                                    width: 20px;
+                                    height: 20px;
+                                    cursor: pointer;
+                                    vertical-align: middle;
+                                    background: #fff url(../img/XZ.png) no-repeat 0 0;
+                                    background-size: cover;
+                                    margin: 0 10px 2px 0;
                                 }
 
                                 a {
@@ -141,38 +155,94 @@
                 }
             }
         }
-        .shop{
-            .list{
-                list-style: none;
-                overflow: hidden;
-                // margin: 50px;
-                width: 100%;
-               
-                .item{
 
-                    .inline_{
-                        display: inline-block;
-                    }
-                    padding-left:180px ;
-                    width: 100%;
-                    height: 100%;
-                    background-color: pink;
+        .shop {
+            .list {
+                list-style: none;
+                width: 100%;
+                overflow: hidden;
+
+                .item {
+                    border: 1px solid black;
+                    overflow: hidden;
                     margin: 20px;
-                    .p-title{
-                        width: 200px;
-                        height: 100%;
-                        text-align: center;
-                    }
-                    .p-price{
-                        color: red ;
-                        .yuan{
-                            font-size: 12px;
-                        }
+                    height: 202px;
+                }
+
+                div {
+                    float: left;
+                }
+
+                .c-box {
+                    line-height: 202px;
+                    .check{
+                        position: relative;
+                        z-index: 3;
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                        vertical-align: middle;
+                        background: #fff url(../img/XZ.png) no-repeat 0 0;
+                        background-size: cover;
+                        margin: 0 10px 2px 0;
+                        background-position: 0 0px;
+                        font-style: normal;
+                        font-weight: 400;
                     }
                 }
-                a{
-                    text-decoration: none;
-                    display: block;
+
+                .p-pri {
+                    width: 100px;
+                    line-height: 202px;
+
+                    img {
+                        width: 100px;
+                    }
+                }
+
+                .p-title {
+                    text-align: center;
+                    line-height: 202px;
+                    // line-height: 100%;
+                    width: 210px;
+
+                    // padding-left: 20px;
+                    // height: 100%;
+                    a {
+                        display: inline-block;
+                        width: 100%;
+                        color: #333;
+                        white-space: nowrap;
+                        word-wrap: normal\9;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                .p-price {
+                    line-height: 202px;
+                    width: 150px;
+                    text-align: center;
+                    height: 100%;
+                }
+
+                .p-num {
+                    line-height: 202px;
+                    width: 200px;
+                    text-align: center;
+                    margin-right: 250px;
+                    height: 100%;
+                }
+
+                .p-price-sum {
+                    line-height: 202px;
+                    margin-right: 110px;
+                    height: 100%;
+                }
+
+                .p-del {
+                    line-height: 202px;
                 }
             }
 
